@@ -1,0 +1,63 @@
+h1{
+    color: #333;
+    font-size: 2.5em;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    width: 250px;
+    height: 160px;
+    border-radius: 20%;
+    display: block;
+    
+}
+
+.p1{
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+.contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    font-size: 1.2em;
+    margin: 10px 0;
+    list-style-type: disc;
+    gap: 10px;
+}
+
+p{
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+    gap: 10px;
+}
+
+@media(max-width: 600px){
+    .skills {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
